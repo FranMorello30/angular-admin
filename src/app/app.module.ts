@@ -7,9 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
 import { AuthModule } from './auth/auth.module';
 
+
 // componentes
 import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+
+
 
 
 
@@ -19,12 +22,14 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     AppComponent,
     
     NopagefoundComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

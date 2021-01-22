@@ -1,1 +1,24 @@
-<p>grafica1 works!</p>
+
+  <div class="row">
+      <div class="col-6">
+          <app-dona 
+            
+            [labes] = "['arroz','azucar','carne']" 
+            [valores] = "[200,50,300]"
+            [colores] = "[{backgroundColor:['#1E46D1','#D11EBE','#D11E1E']}]"
+            titulo = "Ventas"
+            ></app-dona>
+      </div>
+      <div class="col-6">
+        <app-dona
+        [labes] = "['caramelos','chupetas','doritos']" 
+        [valores] = "[50,70,100]"
+        [colores] = "[{backgroundColor:['#CED11E','#1ED185','#D11EB6']}]"></app-dona>
+    </div>
+    <div class="col-6">
+        
+    </div>
+    <div class="col-6">
+        
+    </div>
+  </div>
